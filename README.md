@@ -33,5 +33,5 @@ Finally you can run it like this:
 ```bash
 $ java -cp target/reproject-1.1.1-SNAPSHOT-jar-with-dependencies.jar org.vertnet.Reproject 1 -2 "wgs84"
 Hello Reproject!
-Point2D.Double[0.0, 0.0]
+Point2D.Double[1.0, -2.0]
 ```
