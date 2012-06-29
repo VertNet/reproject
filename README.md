@@ -11,7 +11,9 @@ $ git clone https://github.com/VertNet/reproject.git
 $ cd reproject
 ```
 
-Project dependencies, compiling, and building are all handled using [Maven](http://maven.apache.org), so make sure you have that installed first. Then, to compile the project:
+Project dependencies, compiling, and building are all handled using [Maven](http://maven.apache.org), so make sure you have that installed first. Also, since we're riding on GDAL for reprojections, you'll need to compile that for the native deps. For more about that, [read this wiki](https://github.com/VertNet/reproject/wiki/GDAL-Java-Bindings).
+
+After getting Mavin installed and the GDAL native bindings, you can compile the project:
 
 ```bash
 $ mvn compile
