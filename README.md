@@ -8,7 +8,7 @@ First clone the repository:
 
 ```bash
 $ git clone https://github.com/VertNet/reproject.git
-cd reproject
+$ cd reproject
 ```
 
 Project dependencies, compiling, and building are all handled using [Maven](http://maven.apache.org), so make sure you have that installed first. Then, to compile the project:
