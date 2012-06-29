@@ -22,6 +22,6 @@ public class Reproject {
         checkNotNull(lon, "Lon is required.");
         checkNotNull(datum, "Datum is required");
         // TODO...
-        return new Point2D.Double(0, 0);
+        return new Point2D.Double(lat, lon);
     }
 }
